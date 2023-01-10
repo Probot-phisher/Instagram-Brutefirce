@@ -1,4 +1,4 @@
-# Facebook-BruteForce
+# Instagram-BruteForce
 ```
 Bruteforce attack, For educational purpose only
 ```
